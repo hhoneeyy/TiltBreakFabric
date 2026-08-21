@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "tiltbreak",
+  "version": "${version}",
+  "name": "Tilt Break",
+  "description": "Breaks the Damage Wobble feature and sends it back to its former glory.",
+  "authors": [
+    "StyStatic"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/tiltbreak/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.data_stream.tiltbreak.client.TiltBreakClient"
+    ],
+    "main": [
+      "com.data_stream.tiltbreak.TiltBreak"
+    ]
+  },
+  "mixins": [
+    "tiltbreak.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "26.2"
+  }
+}
