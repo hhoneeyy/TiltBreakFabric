@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "tiltbreak",
-  "version": "26.2-1.8FC",
+  "version": "26.3-1.8FC",
   "name": "Tilt Break",
   "description": "Breaks the Damage Wobble feature and sends it back to its former glory.",
   "authors": [
@@ -24,6 +24,6 @@
   ],
   "depends": {
     "fabricloader": ">=0.16.5",
-    "minecraft": "26.2"
+    "minecraft": "26.3"
   }
 }
